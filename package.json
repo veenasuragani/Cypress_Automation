@@ -1,0 +1,23 @@
+{
+  "name": "cypress_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "veenasri suragani",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.14.0",
+    "cypress": "^13.8.1",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "cypress-failed-log": "^2.10.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}
