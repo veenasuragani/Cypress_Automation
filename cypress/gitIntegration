@@ -1,0 +1,13 @@
+Create a repository using web login and get the repositoryurl
+Go to local folder where the project is available
+git init
+git add .
+git config --global user.email "emailid"
+git config --global user.name "name"
+git commit -m "comitting code"
+git remote add origin "repositioryurl"
+git push origin master
+
+
+maintaining the project
+using "git status" we can see the new code changes and we can add and commit them
