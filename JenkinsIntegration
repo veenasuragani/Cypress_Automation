@@ -1,0 +1,7 @@
+Download jenkins, unzip the file to get jenkins.war file
+From the cmd, go to the location of jenkins.war file and run "java -jar jenkins.war". 
+It will make the jenkins up and running and also we can see one admin password 
+We can access jenkins hitting url : 'http://localhost:8080/' in the browser
+It will ask for password, we need to give the password which is shown in the cmd while running jenkins war file
+It will ask us to choose the option to install plugin and ask us to create new user.
+Then we can launch jenkins file.
