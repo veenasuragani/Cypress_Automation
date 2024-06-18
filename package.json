@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod_test_single": "npx cypress run --spec cypress/e2e/TestUsingConfig.cy.js --config-file prod.config.js",
+    "stage_test_single": "npx cypress run --spec cypress/e2e/TestUsingConfig.cy.js --config-file stage.config.js",
+    "prod_all": "npx cypress run --spec cypress/e2e/*.cy.js --config-file prod.config.js"
   },
   "author": "veenasri suragani",
   "license": "ISC",
