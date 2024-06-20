@@ -12,6 +12,7 @@
   "author": "veenasri suragani",
   "license": "ISC",
   "dependencies": {
+    "@applitools/eyes-cypress": "^3.44.4",
     "ajv": "^8.14.0",
     "cypress": "^13.8.1",
     "cypress-file-upload": "^5.0.8"
